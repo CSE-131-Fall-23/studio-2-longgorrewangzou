@@ -9,7 +9,7 @@ public class Ruin {
 		System.out.println("How much money do you want to start with?");
 		int startAmount = in.nextInt();
 		double winChance = 0.5;
-		int winLimit = (startAmount * 2);
+		int winLimit = (startAmount + 50);
 		int dayLost = 0;
 		int dayWin = 0;
 		double ratio = (double)startAmount/winLimit;
